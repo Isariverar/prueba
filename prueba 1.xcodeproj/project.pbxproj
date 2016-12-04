@@ -415,10 +415,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = A2757AP79N;
 				INFOPLIST_FILE = "prueba 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Isariverar.prueba-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Isariverar-prueba.git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,10 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = A2757AP79N;
 				INFOPLIST_FILE = "prueba 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Isariverar.prueba-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Isariverar-prueba.git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -514,6 +516,7 @@
 				659874BD1DF48C990074A651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		659874BE1DF48C990074A651 /* Build configuration list for PBXNativeTarget "prueba 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +525,7 @@
 				659874C01DF48C990074A651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		659874C11DF48C990074A651 /* Build configuration list for PBXNativeTarget "prueba 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +534,7 @@
 				659874C31DF48C990074A651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
